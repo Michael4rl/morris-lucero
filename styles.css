@@ -9,3 +9,66 @@
     justify-content: center;
     color: white;
 }
+
+h3 {
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.listings p {
+    margin: 0;
+}
+
+h2 {
+    font-size: 100px;
+    font-family: Algerian;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    border: none;
+}
+
+.end-quote {
+    text-align: end;
+}
+
+.quoted-text {
+    margin-top: 0;
+    padding-top: 0;
+    border: none;
+}
+
+.quoted-text-two {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border: none;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    position: relative;
+    margin: 0.5em;
+    padding: 0.5em 2em 0.5em 3em;
+}
+
+blockquote:before {
+    font-family: Georgia, serif;
+    position: absolute;
+    font-size: 6em;
+    line-height: 1;
+    top: 0;
+    left: 0;
+    content: "\201C";
+}
+blockquote:after {
+    font-family: Georgia, serif;
+    position: absolute;
+    float:right;
+    font-size:6em;
+    line-height: 1;
+    right:0;
+    bottom:-0.5em;
+    content: "\201D";
+}
+
