@@ -16,34 +16,14 @@ h3 {
     margin-bottom: 15px;
 }
 
-.listings p {
+.transactions p {
     margin: 0;
 }
 
-h2 {
-    font-size: 100px;
-    font-family: Algerian;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding: 0;
-    border: none;
+.transactions img {
+    margin-top: 25px;
 }
 
-.end-quote {
-    text-align: end;
-}
-
-.quoted-text {
-    margin-top: 0;
-    padding-top: 0;
-    border: none;
-}
-
-.quoted-text-two {
-    margin-bottom: 0;
-    padding-bottom: 0;
-    border: none;
-}
 
 blockquote {
     font-family: Georgia, serif;
@@ -71,4 +51,3 @@ blockquote:after {
     bottom:-0.5em;
     content: "\201D";
 }
-
